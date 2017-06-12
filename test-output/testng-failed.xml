@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.DaveHaef.Selenium.TestDynamicLoading">
+      <class name="test.DaveHaef.Selenium.FluentWait">
         <methods>
-          <include name="beforeTest"/>
-          <include name="hiddenElementLoads"/>
-          <include name="tearDown"/>
+          <include name="before"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- test.DaveHaef.Selenium.TestDynamicLoading -->
+      </class> <!-- test.DaveHaef.Selenium.FluentWait -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

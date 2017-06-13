@@ -48,6 +48,7 @@ public class FluentWait {
 	wait.pollingEvery(2, TimeUnit.SECONDS);
 //	wait.ignoringAll([NoSuchElementException,ElementNotVisibleException,ElementNotSelectableException]);
 	wait.until(ExpectedConditions.elementToBeClickable(multi));
+
 	}
 	
 	@AfterTest

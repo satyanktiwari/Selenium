@@ -37,7 +37,7 @@ public void setup() throws Exception{
 public void withoutHelpfulMarkupDueAscending (){
 	System.out.println("inside @Test");
 	 driver.get("http://the-internet.herokuapp.com/tables");
-	WebElement dcValue = driver.findElement(By.cssSelector("#table1 thead tr th:nth-of-type(4)"));
+	WebElement dcValue = driver.findElement(By.cssSelector("#table1 tbody td:nth-of-type(4)"));
 			dcValue.click();
 	
 	

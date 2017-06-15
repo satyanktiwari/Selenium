@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17354" started-at="2017-06-12T09:47:01Z" finished-at="2017-06-12T09:47:18Z">
+  <suite name="Default suite" duration-ms="12827" started-at="2017-06-15T03:07:22Z" finished-at="2017-06-15T03:07:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17354" started-at="2017-06-12T09:47:01Z" finished-at="2017-06-12T09:47:18Z">
-      <class name="test.DaveHaef.Selenium.FluentWait">
-        <test-method status="PASS" signature="before()[pri:0, instance:test.DaveHaef.Selenium.FluentWait@59ec2012]" name="before" is-config="true" duration-ms="6" started-at="2017-06-12T15:17:01Z" finished-at="2017-06-12T15:17:01Z">
+    <test name="Default test" duration-ms="12827" started-at="2017-06-15T03:07:22Z" finished-at="2017-06-15T03:07:35Z">
+      <class name="test.DaveHaef.Selenium.Tables">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.DaveHaef.Selenium.Tables@146ba0ac]" name="setup" is-config="true" duration-ms="6375" started-at="2017-06-15T08:37:22Z" finished-at="2017-06-15T08:37:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:test.DaveHaef.Selenium.FluentWait@59ec2012]" name="test" duration-ms="17334" started-at="2017-06-12T15:17:01Z" finished-at="2017-06-12T15:17:18Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="withoutHelpfulMarkupDueAscending()[pri:0, instance:test.DaveHaef.Selenium.Tables@146ba0ac]" name="withoutHelpfulMarkupDueAscending" duration-ms="5864" started-at="2017-06-15T08:37:29Z" finished-at="2017-06-15T08:37:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- test.DaveHaef.Selenium.FluentWait -->
+        </test-method> <!-- withoutHelpfulMarkupDueAscending -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.DaveHaef.Selenium.Tables@146ba0ac]" name="tearDown" is-config="true" duration-ms="574" started-at="2017-06-15T08:37:35Z" finished-at="2017-06-15T08:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.DaveHaef.Selenium.Tables -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -45,10 +45,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
-    <version>3.9</version>
+    <version>3.16</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.hamcrest/java-hamcrest -->
 <dependency>

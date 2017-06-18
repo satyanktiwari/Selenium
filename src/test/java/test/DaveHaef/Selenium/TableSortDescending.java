@@ -13,14 +13,14 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.number.OrderingComparison.lessThan;
-import static org.hamcrest.number.OrderingComparison.lessThanOrEqualTo;
+//import static org.hamcrest.number.OrderingComparison.lessThan;
+//import static org.hamcrest.number.OrderingComparison.lessThanOrEqualTo;
 import static org.hamcrest.number.OrderingComparison.greaterThanOrEqualTo;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
+//import org.testng.Assert;
+//import org.testng.annotations.Test;
+//import org.testng.asserts.SoftAssert;
 
-public class Tables {
+public class TableSortDescending {
 WebDriver driver;
 
 @ BeforeTest
@@ -43,6 +43,7 @@ public void withoutHelpfulMarkupDueAscending (){
 //	 find the heading and click on it to sort ascending (on first click) 
 	WebElement dcValue = driver.findElement(By.cssSelector("#table1 thead tr th:nth-of-type(4)"));
 			dcValue.click();
+			dcValue.click();
 	
 	
 //	List <WebElement> dues = (List<WebElement>) driver.findElement(By.cssSelector("#table1 tbody td:nth-of-type(4)"));
@@ -58,7 +59,7 @@ public void withoutHelpfulMarkupDueAscending (){
 	for (int counter=0; counter < dueValues.size()-1; counter++){
 		System.out.println("Value of counter is: "+dueValues.get(counter));
 		System.out.println("Value of counter+1 is: "+dueValues.get(counter+1));
-		assertThat(dueValues.get(counter), is(lessThanOrEqualTo(dueValues.get(counter+1))));
+		assertThat(dueValues.get(counter), is(greaterThanOrEqualTo(dueValues.get(counter+1))));
 	}
 	
 }
